@@ -1,0 +1,330 @@
+﻿/* GENERAL STYLING RULES */
+body
+{
+	margin:0px;
+	padding:0px;
+	background-color: #e0dccf;
+	background: url('../images/bg.png') #e0dccf repeat-y center center;
+	font:13px/16px "Lucida Grande", Tahoma, Arial, Sans-serif;	
+}
+a:link 
+{	
+	text-decoration: none;
+	color: #c40807;
+}
+a:visited 
+{
+	text-decoration: none;
+	color: #c40807;
+}
+
+a:active 
+{
+	text-decoration: none; 
+	color: #c40807;
+}
+
+a:hover 
+{
+	text-decoration: underline; 
+	color: #c40807;
+}
+img
+{
+	border: 0 none;
+	text-decoration: none;
+}
+a img
+{
+	text-decoration: none;
+	border: 0 none;
+}
+.cleaner
+{
+	clear: both;
+}
+.layout_wrapper
+{
+	width:1000px;
+	margin: 0px auto;
+	background-color: #f1ede1;
+}
+.layout_welcomeCenter
+{
+    background-color: #888888;
+    text-align:right;
+    padding:5px;
+    color:#ffffff;
+}
+.layout_welcomeCenter a
+{
+    color: #ffffff;
+}
+.layout_header
+{
+	background: url('../images/layout.jpg') transparent no-repeat top center;
+	height: 565px;
+}
+.layout_stepWrapper, .layout_stepWrapperActive
+{
+	width:204px;
+	border: 1px solid #000;
+	float: left;
+	height: 150px;
+	margin: 365px 20px 0px 20px;
+	background-color: #658913;
+	border: 3px solid #255000;
+}
+.layout_stepWrapperActive
+{
+	cursor: pointer;
+}
+.layout_stepIcon_01, .layout_stepIcon_02, .layout_stepIcon_03, .layout_stepIcon_04, .layout_stepIcon_01a, .layout_stepIcon_02a, .layout_stepIcon_03a, .layout_stepIcon_04a
+{
+	height: 94px;
+	text-align: center;
+	font-size: 22px;
+	font-family: Arial;
+	font-weight: bold;
+	color: #ffffff;
+	text-shadow: #000000 1px 1px 0px;
+	letter-spacing: 1px;
+}
+.layout_stepTitle
+{
+	padding-top: 100px;
+}
+.layout_stepIcon_01
+{
+	background: url('../images/step_01.png') transparent no-repeat center center;
+}
+.layout_stepIcon_02
+{
+	background: url('../images/step_02.png') transparent no-repeat center center;
+}
+.layout_stepIcon_03
+{
+	background: url('../images/step_03.png') transparent no-repeat center center;
+}
+.layout_stepIcon_04
+{
+	background: url('../images/step_04.png') transparent no-repeat center center;
+}
+.layout_stepIcon_01a
+{
+	background: url('../images/step_01_a.png') transparent no-repeat center center;
+}
+.layout_stepIcon_02a
+{
+	background: url('../images/step_02_a.png') transparent no-repeat center center;
+}
+.layout_stepIcon_03a
+{
+	background: url('../images/step_03_a.png') transparent no-repeat center center;
+}
+.layout_stepIcon_04a
+{
+	background: url('../images/step_04_a.png') transparent no-repeat center center;
+}
+.layout_body
+{
+	padding: 20px;
+}
+.layout_footer
+{
+	background: url('../images/footer.jpg') transparent no-repeat center center;	
+	height: 130px;
+	color: #ffffff;
+}
+.layout_copyrightsWrapper
+{
+	padding: 90px 20px 20px 20px;
+	float: left;
+	width: 300px;
+}
+.layout_linksWrapper
+{
+	padding: 90px 20px 20px 20px;
+	float: right;
+	width:600px;
+	text-align: right;
+}
+.layout_linksWrapper a
+{
+	color: #ffffff;
+}
+
+
+
+
+/* STYLING RULES FOR Default.aspx */
+.default_noteTable
+{
+    border:0px;
+    padding: 0px;
+    width: 130px;
+    margin: 0px auto;
+}
+.default_noteTableCell
+{
+  white-space:nowrap;
+  text-align:right;
+}
+.default_noteTableSubmitButton
+{
+    text-align:right;
+    width: 181px;
+}
+.default_note01
+{
+    background: url('../images/note_01.png') transparent no-repeat center center;
+    float:left;
+    width:217px;
+    height:233px;
+    margin: 0px 50px 0px 70px;
+}
+.default_note02
+{
+    background: url('../images/note_02.png') transparent no-repeat center center;
+    float:left;
+    width:246px;
+    height:260px;
+    margin: 0px 50px 0px 0px;
+}
+.default_note03
+{
+    background: url('../images/note_03.png') transparent no-repeat center center;
+    float:left;
+    width:237px;
+    height:256px;
+    margin: 0px 50px 0px 0px;
+}
+.default_noteContent
+{
+    padding:30px 15px 0px 15px;
+    line-height:30px;
+    text-align:center;
+    width: 205px;
+}
+.default_errorLabel
+{
+    color:#ff0000;
+}
+3.png') transparent no-repeat center center;
+ 
+.defaukt_formInput
+{
+    border: 1px solid #000;
+    margin-left: 20px;
+}
+
+
+
+.default_noteContent
+{
+    padding:30px 15px 0px 15px;
+    line-height:30px;
+    text-align:center;
+}
+.default_errorLabel
+{
+    color:#ff0000;
+}
+.default_noteTitle
+{
+    font-weight:bold;
+}
+.defaukt_formInput
+{
+    border: 1px solid #000;
+    margin-left: 20px;
+}
+
+
+/* STYLING FOR MyAccount.cs */
+.myAccount_viewTable
+{
+    width:100%;
+    border: 1px solid #000;
+    border-collapse:collapse;
+
+}
+.myAccount_viewTableHeaderCell
+{
+    background-color: #dadada;
+    font-weight:bold;
+    text-align:center;
+}.myAccount_viewTableInnerCell
+{
+    text-align:center;
+}
+
+
+/* FORMS AND STEPS */
+.steps_tableWrapper
+{
+    width:900px;
+    border: 3px solid #000;
+    border-collapse: collapse; 
+}
+.steps_tableCellA_1
+{
+    background-color: #f2f2f2;
+    width:150px;
+    margin-right:10px;
+    font-size:16px;
+    font-weight:bold;
+}
+.steps_tableCellB_1
+{
+    background-color: #dadada;
+    width:150px;
+    margin-right:10px;
+    font-size:16px;
+    font-weight:bold;
+}
+.steps_tableCellA_2
+{
+    background-color: #f2f2f2;
+    width:750px;
+    text-align:right;
+}
+.steps_tableCellB_2
+{
+    background-color: #dadada;
+    width:750px;
+    text-align:right;
+}
+.steps_tableCellC_1
+{
+    background-color: #c4c4c4;
+    width:150px;
+    margin-right:10px;
+    font-size:16px;
+    font-weight:bold;
+    text-align:right;
+}
+.steps_tableCellC_2
+{
+    background-color: #c4c4c4;
+    width:750px;
+    text-align:right;
+}
+.steps_contentWrapper
+{
+    width:900px;
+    border: 3px solid #000000;
+    background-color:#f2f2f2;
+     border-collapse: collapse; 
+}
+.resumeSelector
+{
+    font-size: 16px;
+    min-width:500px;
+    padding: 5px;
+}
+.resumeButton
+{
+    font-size: 16px;
+    padding: 5px;   
+}
